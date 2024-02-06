@@ -1,0 +1,61 @@
+status	key	command
+Composition	Backspace	Backspace
+Conversion	Backspace	Cancel
+Precomposition	Backspace	Revert
+Precomposition	Ctrl Backspace	Undo
+Precomposition	Ctrl F12	LaunchConfigDialog
+Precomposition	Ctrl F7	LaunchWordRegisterDialog
+Composition	Delete	Delete
+Conversion	Down	ConvertNext
+Composition	Down	PredictAndConvert
+Composition	Eisu	ToggleAlphanumericMode
+Conversion	Eisu	ToggleAlphanumericMode
+Composition	Enter	Commit
+Conversion	Enter	Commit
+Composition	ESC	Cancel
+Conversion	ESC	Cancel
+Composition	F10	ConvertToHalfAlphanumeric
+Conversion	F10	ConvertToHalfAlphanumeric
+Composition	F2	ConvertWithoutHistory
+Composition	F6	ConvertToHiragana
+Conversion	F6	ConvertToHiragana
+Composition	F7	ConvertToFullKatakana
+Conversion	F7	ConvertToFullKatakana
+Composition	F8	ConvertToHalfWidth
+Conversion	F8	ConvertToHalfWidth
+Composition	F9	ConvertToFullAlphanumeric
+Conversion	F9	ConvertToFullAlphanumeric
+Composition	Hankaku/Zenkaku	IMEOff
+Conversion	Hankaku/Zenkaku	IMEOff
+DirectInput	Hankaku/Zenkaku	IMEOn
+Precomposition	Hankaku/Zenkaku	IMEOff
+DirectInput	Henkan	InputModeHiragana
+Precomposition	Henkan	InputModeHiragana
+Suggestion	Henkan	InputModeHiragana
+Prediction	Henkan	InputModeHiragana
+Composition	Henkan	InputModeHiragana
+Conversion	Henkan	InputModeHiragana
+Conversion	Left	SegmentFocusLeft
+Precomposition	Muhenkan	IMEOff
+Composition	Muhenkan	IMEOff
+Conversion	Muhenkan	IMEOff
+Conversion	Right	SegmentFocusRight
+Precomposition	Shift Space	InsertAlternateSpace
+Conversion	Shift Tab	ConvertPrev
+Composition	Space	Convert
+Conversion	Space	ConvertNext
+Precomposition	Space	InsertSpace
+Composition	Tab	PredictAndConvert
+Conversion	Tab	PredictAndConvert
+Conversion	Up	ConvertPrev
+Composition	Kanji	CancelAndIMEOff
+Composition	OFF	CancelAndIMEOff
+Composition	ON	IMEOn
+Conversion	Kanji	CancelAndIMEOff
+Conversion	OFF	CancelAndIMEOff
+Conversion	ON	IMEOn
+DirectInput	Kanji	IMEOn
+DirectInput	ON	IMEOn
+Precomposition	Kanji	CancelAndIMEOff
+Precomposition	OFF	CancelAndIMEOff
+Precomposition	ON	IMEOn
